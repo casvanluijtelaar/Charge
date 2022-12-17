@@ -107,10 +107,11 @@ while {{alive _x} count units _group > 0} do {
                 call _fn_moveTo; 
             };
 
-            // group leader is less than 10 meters from player
-            _isAtTarget = call _fn_hasUnitReachedPlayer;
             // a target can no longer be found
             _isTargetNull = isNull _newTarget;
+            // if any AI in unit is closer than 10 meters from player
+            _isAtTarget = call _fn_hasUnitReachedPlayer;
+
             // stop the loop if either is true
             _isTargetNull || _isAtTarget;
         };
