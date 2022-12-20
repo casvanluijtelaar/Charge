@@ -24,4 +24,5 @@ class CfgVehicles
         scope = 2;
         scopeCurator = 2;
 		curatorCanAttach = 1;
+	};
 };
