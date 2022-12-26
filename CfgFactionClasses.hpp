@@ -3,5 +3,4 @@ class CfgFactionClasses {
 	class AOW_Modules: NO_CATEGORY {
 		displayName = "Charge";
 	};
-	
 };

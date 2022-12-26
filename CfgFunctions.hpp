@@ -6,7 +6,9 @@ class CfgFunctions
 		{
 			file = "\AOW_CHARGE\functions";
 			class charge {};
-			class rush {};
+			class chargeCancel {};
+			class chargePosition {};
+			class chargeNearestPlayer {};
 		};
 	};
 };
